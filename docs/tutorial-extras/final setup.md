@@ -1,0 +1,36 @@
+---
+title: Final Setup and Configuration
+---
+
+# Tenant Environments Overview
+
+Woodcore provides two environments within the console: the test environment and the production environment. These are crucial components during the onboarding process, with the test environment being provisioned first, followed by the migration to the production or live environment.
+
+Both environments encompass the complete features of the Lithobase console and APIs.
+
+## Test Environment:
+
+The test environment, also known as the test console, is a fully functional and distinct user interface. It allows organizations to conduct operations, test features, and train employees without affecting live data. After onboarding, a test console is created for a specific number of users within the organization for a trial period. Operations in the test environment don't impact the production data, offering a risk-free space to familiarize with the system.
+
+Two test environments are available for each tenant. 
+
+The first serves for testing and system familiarization, while the second is utilized for data migration. This is particularly useful for organizations with existing customer data, as data is migrated from the previous system to the test environment before being cloned to production.
+
+📘
+Note: Data in the test environment isn't backed up. Adding live data for testing is discouraged.
+
+## Production Environment:
+
+The production environment is the live application, demanding high security and performance. It contains live data, including client information and reports. Only data from the test environment, specifically for migration, is moved to production. Despite belonging to the same tenant, the test and production environments operate independently. Actions in the test environment don't affect production data.
+
+Training using the test environment is recommended for organizational employees before migrating to the production environment.
+
+Differences:
+After data migration, your production environment becomes accessible. Key distinctions include:
+
+- Base URL: Test: https://console.test.lithobase.com/ 
+- Production: https://console.lithobase.com/
+
+VPN Access: Production requires a VPN connection for access, ensuring security. Only designated individuals with VPN access in your organization can enter the production environment. Accessing both environments requires a One-Time Password from a third-party authenticator.
+
+Reports: Reports generated from the live console carry the organization's logo, distinguishing them from test environment reports.
