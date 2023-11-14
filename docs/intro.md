@@ -19,13 +19,10 @@ With our service, financial institutions can easily create and manage their fina
 Our full suite of products, comprehensive APIs, users console, and third-party integration products allow for fast, flexible implementation that can help you speed up your go-to-market strategy and rapidly scale to keep pace with today’s market demands.
 
 ### Who did we build Lithobase for? 
-
+The simple answer? If you do anything that is finance based, Lithobase is for you. Just to give you a head start, some of them are listed below:
 - Commercial banks
-
 - Microfinance banks.
-
 - Fintechs and Neobanks.
-
 - Retail / Pharmacy stores.
 
 ## Interesting, so what product can they build with Lithobase?
